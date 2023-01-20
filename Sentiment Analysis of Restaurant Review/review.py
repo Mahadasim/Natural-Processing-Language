@@ -63,6 +63,6 @@ def Predict_Sentiment(sample_review):
 
 customer_review = input("Enter the review: ")
 if (Predict_Sentiment(customer_review)):
-  print("Good Review")
+  print("Customer generated a \"Good Review\".")
 else:
-  print("Bad Review")
+  print("Customer generated a \"Bad Review\".")
